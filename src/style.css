@@ -1,0 +1,198 @@
+body
+{
+	background-color: #303030;
+	color:#ffffff;
+}
+
+#conteiner
+{
+	width:1000px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Lato', sans-serif;
+	font-size:20px;
+}
+
+.rectangle
+{
+	background-color:black;
+	font-size:20px;
+	text-align: center;
+	width:980px;
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+#logo
+{
+	float:left;
+	width:600px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size:70px;
+}
+
+#zegar
+{
+	float:left;
+	width:340px;
+	font-size:50px;
+	padding-top:10px;
+}
+
+
+.kub
+{
+	width:50%;
+	float:left;
+}
+
+.tile1
+{
+	float:left;
+	margin: 10px;
+	width:230px;
+	height: 142px;
+	background-color: #3095d3;
+	text-align: center;
+}
+
+
+.tile1:hover
+{
+
+	background-color: #2084c2;
+}
+
+.tile2
+{
+	float:left;
+	margin: 10px;
+	width:230px;
+	height: 142px;
+	background-color:#666666;
+	text-align: center;
+}
+
+.tile2:hover
+{
+	background-color:#555555;
+}
+
+.tile3
+{
+	float:left;
+	width:230px;
+	margin: 10px;
+	height: 142px;
+	background-color: #93c748;
+	text-align: center;
+	
+}
+
+.tile3:hover
+{
+	background-color: #82b637;
+	
+}
+
+.tile4
+{
+	margin: 10px;
+	width:420px;
+	height: 82px;
+	background-color: #ee5a32;
+	text-align: center;
+	font-size:26px;
+	padding:30px;
+	line-height: 150%;
+}
+
+.tile5
+{
+	margin: 10px;
+	width:420px;
+	height: 244px;
+	background-color: #666666;
+	text-align: justify;
+	padding:30px;
+}
+
+#yt
+{
+	float:left;
+	width:105px;
+	height: 142px;
+	background-color: #d94348;
+	margin:10px;
+}
+
+#yt:hover
+{
+	background-color: #c83237;
+}
+#fb
+{
+	float:left;
+	width:105px;
+	height: 142px;
+	background-color: #4668b3;
+	margin:10px;
+}
+
+#fb:hover
+{
+	background-color: #3557a2;
+}
+
+#gp
+{
+	float:left;
+	width:105px;
+	height: 142px;
+	background-color: #d95333;
+	margin:10px;
+}
+
+#gp:hover
+{
+	background-color: #b84222;
+}
+
+#tw
+{
+	float:left;
+	width:105px;
+	height: 142px;
+	background-color: #3095d3;
+	margin:10px;
+}
+
+#tw:hover
+{
+	background-color: #2084c2;
+}
+
+a.tilelink
+{
+	color:#ffffff;
+	text-decoration:none;
+	display:block;
+	width:230px;
+	height: 142px;
+	
+}
+a.soclink
+{
+	color:#ffffff;
+	text-decoration:none;
+	display:block;
+	width:105px;
+	height: 142px;
+}
+a.none
+{
+	color:#ffffff;
+	text-decoration:none;
+}
+
