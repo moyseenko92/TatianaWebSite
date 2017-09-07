@@ -1,0 +1,200 @@
+body
+{
+	background-color:#303030;
+	color:#ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size:20px;
+	margin:0 !important;
+	
+}
+
+.wrapper
+{
+	width:100%;
+}
+.header
+{
+	width:100%;
+	padding: 40px 0;
+}
+.logo
+{
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:48px;
+	width:450px;
+}
+
+
+.content
+{
+	width:1000px;
+	padding-top:10px;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:justify;
+}
+
+.socials
+{
+	width:100%;
+	background-color:#292929;
+}
+.socialdivs
+{
+	width:1000px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.ft
+{
+	float:left;
+	text-align:center;
+	width:250px;
+	height:155px;
+	
+}
+.ft:hover
+{
+	background-color:#4668b3;
+}
+
+.yt
+{
+	float:left;
+	text-align:center;
+	width:250px;
+	height:155px;
+	
+}
+.yt:hover
+{
+	background-color:#d94348;
+}
+.tw
+{
+	float:left;
+	text-align:center;
+	width:250px;
+	height:155px;
+}
+.tw:hover
+{
+	background-color:#3095d3;
+}
+.gp
+{
+	float:left;
+	text-align:center;
+	width:250px;
+	height:155px;
+}
+.gp:hover
+{
+	background-color:#d95333;
+}
+
+.footer
+{
+	background-color:#222222;
+	text-align: center;
+	padding:10px 0;
+}
+.sticky
+{
+	width:100%;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:100;
+}
+
+.nav
+{
+	width:100%;
+	background-color:#c34f4f;
+	text-align:center;
+	border-bottom:1px solid #751b1b;
+	border-top:1px solid #751b1b;
+	padding: 10px 0;
+
+}
+
+
+ol
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	line-height: 200%;
+	font-size:18px;
+	height:35px;
+	display:inline-block;
+	
+}
+
+ol a
+{
+	color:#ffffff;
+	text-decoration:none;
+	display:block;
+}
+
+ol > li
+{
+	float:left;
+	width:150px;
+	height:40px;
+	border-right:1px dashed #751b1b;
+	text-align:center;
+}
+
+ol > li:first-child
+
+{
+	border-left:1px dashed #751b1b;
+}
+
+ol > li:hover
+{
+	background-color:#cf6969;
+}
+
+ol > li:hover > a
+{
+	color: #451717;
+}
+
+ol > li > ul
+{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	height:40px;
+	display: none;
+}
+
+ol > li > ul > li
+{
+	background-color: #cf6969;
+	position:relative;
+	z-index:100;
+	border-top:1px dashed #751b1b;
+}
+
+ol > li > ul > li:hover
+{
+	background-color:#c34f4f;
+}
+
+ol > li > ul > li:hover > a
+{
+	color:#451717;
+}
+
+ol > li:hover > ul
+{
+	display:block;
+}
